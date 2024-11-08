@@ -1,49 +1,46 @@
-[![Logo Image](https://cdn.pterodactyl.io/logos/new/pterodactyl_logo.png)](https://pterodactyl.io)
+[![Imagem do Logo](https://cdn.pterodactyl.io/logos/new/pterodactyl_logo.png)](https://pterodactyl.io)
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/pterodactyl/panel/ci.yaml?label=Tests&style=for-the-badge&branch=1.0-develop)
+![Status do Workflow no GitHub](https://img.shields.io/github/actions/workflow/status/pterodactyl/panel/ci.yaml?label=Tests&style=for-the-badge&branch=1.0-develop)
 ![Discord](https://img.shields.io/discord/122900397965705216?label=Discord&logo=Discord&logoColor=white&style=for-the-badge)
-![GitHub Releases](https://img.shields.io/github/downloads/pterodactyl/panel/latest/total?style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/pterodactyl/panel?style=for-the-badge)
+![Downloads no GitHub](https://img.shields.io/github/downloads/pterodactyl/panel/latest/total?style=for-the-badge)
+![Contribuidores no GitHub](https://img.shields.io/github/contributors/pterodactyl/panel?style=for-the-badge)
 
-# Pterodactyl Panel
+# Painel Pterodactyl
 
-Pterodactyl® is a free, open-source game server management panel built with PHP, React, and Go. Designed with security
-in mind, Pterodactyl runs all game servers in isolated Docker containers while exposing a beautiful and intuitive
-UI to end users.
+Pterodactyl® é um painel de gerenciamento de servidores de jogos gratuito e de código aberto, construído com PHP, React e Go. Projetado com foco na segurança, o Pterodactyl executa todos os servidores de jogos em contêineres Docker isolados, enquanto expõe uma interface bonita e intuitiva para os usuários finais.
 
-Stop settling for less. Make game servers a first class citizen on your platform.
+Pare de se contentar com menos. Torne os servidores de jogos um recurso de primeira classe na sua plataforma.
 
-![Image](https://cdn.pterodactyl.io/site-assets/pterodactyl_v1_demo.gif)
+![Imagem](https://cdn.pterodactyl.io/site-assets/pterodactyl_v1_demo.gif)
 
-## Documentation
+## Documentação
 
-* [Panel Documentation](https://pterodactyl.io/panel/1.0/getting_started.html)
-* [Wings Documentation](https://pterodactyl.io/wings/1.0/installing.html)
-* [Community Guides](https://pterodactyl.io/community/about.html)
-* Or, get additional help [via Discord](https://discord.gg/pterodactyl)
+* [Documentação do Painel](https://pterodactyl.io/panel/1.0/getting_started.html)
+* [Documentação do Wings](https://pterodactyl.io/wings/1.0/installing.html)
+* [Guias da Comunidade](https://pterodactyl.io/community/about.html)
+* Ou, obtenha ajuda adicional [via Discord](https://discord.gg/pterodactyl)
 
-## Sponsors
+## Patrocinadores
 
-I would like to extend my sincere thanks to the following sponsors for helping fund Pterodactyl's development.
-[Interested in becoming a sponsor?](https://github.com/sponsors/matthewpi)
+Gostaria de estender meus sinceros agradecimentos aos seguintes patrocinadores por ajudarem a financiar o desenvolvimento do Pterodactyl.
+[Interessado em se tornar um patrocinador?](https://github.com/sponsors/matthewpi)
 
-| Company                                                                           | About                                                                                                                                                                                                                                           |
+| Empresa                                                                           | Sobre                                                                                                                                                                                                                                           |
 |-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Aussie Server Hosts**](https://aussieserverhosts.com/)                         | No frills Australian Owned and operated High Performance Server hosting for some of the most demanding games serving Australia and New Zealand.                                                                                                 |
-| [**BisectHosting**](https://www.bisecthosting.com/)                               | BisectHosting provides Minecraft, Valheim and other server hosting services with the highest reliability and lightning fast support since 2012.                                                                                                 |
-| [**MineStrator**](https://minestrator.com/)                                       | Looking for the most highend French hosting company for your minecraft server? More than 24,000 members on our discord trust us. Give us a try!                                                                                                 |
-| [**HostEZ**](https://hostez.io)                                                   | US & EU Rust & Minecraft Hosting. DDoS Protected bare metal, VPS and colocation with low latency, high uptime and maximum availability. EZ!                                                                                                     |
-| [**Blueprint**](https://blueprint.zip/?utm_source=pterodactyl&utm_medium=sponsor) | Create and install Pterodactyl addons and themes with the growing Blueprint framework - the package-manager for Pterodactyl. Use multiple modifications at once without worrying about conflicts and make use of the large extension ecosystem. |
-| [**indifferent broccoli**](https://indifferentbroccoli.com/)                      | indifferent broccoli is a game server hosting and rental company. With us, you get top-notch computer power for your gaming sessions. We destroy lag, latency, and complexity--letting you focus on the fun stuff.                              |
+| [**Aussie Server Hosts**](https://aussieserverhosts.com/)                         | Hospedagem de servidores de alto desempenho, sem frescuras, operada por australianos e voltada para os jogos mais exigentes, servindo a Austrália e a Nova Zelândia.                                                                           |
+| [**BisectHosting**](https://www.bisecthosting.com/)                               | A BisectHosting oferece serviços de hospedagem de servidores de Minecraft, Valheim e outros jogos com a mais alta confiabilidade e suporte ultrarrápido desde 2012.                                                                            |
+| [**MineStrator**](https://minestrator.com/)                                       | Procurando pela hospedagem francesa de mais alto nível para seu servidor de Minecraft? Mais de 24.000 membros em nosso Discord confiam em nós. Dê uma chance!                                                                                   |
+| [**HostEZ**](https://hostez.io)                                                   | Hospedagem de Rust e Minecraft nos EUA e na UE. Proteção contra DDoS, servidores dedicados e VPS com baixa latência, alta disponibilidade e máxima confiabilidade. É fácil!                                                                    |
+| [**Blueprint**](https://blueprint.zip/?utm_source=pterodactyl&utm_medium=sponsor) | Crie e instale complementos e temas para o Pterodactyl com o framework crescente Blueprint – o gerenciador de pacotes para Pterodactyl. Use várias modificações ao mesmo tempo sem se preocupar com conflitos e aproveite o grande ecossistema de extensões. |
+| [**indifferent broccoli**](https://indifferentbroccoli.com/)                      | A indifferent broccoli é uma empresa de hospedagem e aluguel de servidores de jogos. Com a gente, você obtém alto desempenho para suas sessões de jogo. Eliminamos lag, latência e complexidade, deixando você focar apenas na diversão.       |
 
-### Supported Games
+### Jogos Suportados
 
-Pterodactyl supports a wide variety of games by utilizing Docker containers to isolate each instance. This gives
-you the power to run game servers without bloating machines with a host of additional dependencies.
+O Pterodactyl suporta uma grande variedade de jogos utilizando contêineres Docker para isolar cada instância. Isso permite que você execute servidores de jogos sem sobrecarregar as máquinas com diversas dependências adicionais.
 
-Some of our core supported games include:
+Alguns de nossos jogos principais incluem:
 
-* Minecraft — including Paper, Sponge, Bungeecord, Waterfall, and more
+* Minecraft — incluindo Paper, Sponge, Bungeecord, Waterfall e mais
 * Rust
 * Terraria
 * Teamspeak
@@ -53,8 +50,7 @@ Some of our core supported games include:
 * Garry's Mod
 * ARK: Survival Evolved
 
-In addition to our standard nest of supported games, our community is constantly pushing the limits of this software
-and there are plenty more games available provided by the community. Some of these games include:
+Além da nossa lista padrão de jogos suportados, nossa comunidade está constantemente expandindo os limites deste software, e muitos outros jogos são fornecidos pela comunidade, incluindo:
 
 * Factorio
 * San Andreas: MP
@@ -62,11 +58,11 @@ and there are plenty more games available provided by the community. Some of the
 * Squad
 * Xonotic
 * Starmade
-* Discord ATLBot, and most other Node.js/Python discord bots
-* [and many more...](https://github.com/parkervcp/eggs)
+* Discord ATLBot e a maioria dos outros bots para Discord em Node.js/Python
+* [e muitos mais...](https://github.com/parkervcp/eggs)
 
-## License
+## Licença
 
-Pterodactyl® Copyright © 2015 - 2022 Dane Everitt and contributors.
+Pterodactyl® Copyright © 2015 - 2022 Dane Everitt e colaboradores.
 
-Code released under the [MIT License](./LICENSE.md).
+Código liberado sob a [Licença MIT](./LICENSE.md).
